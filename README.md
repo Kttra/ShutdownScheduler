@@ -1,14 +1,9 @@
 # Shutdown Scheduler
-A program that schedules a shutdown for windows devices.
+A program that schedules a shutdown for windows devices. The program will run the requested command through a hidden console.
 
-It takes in hour(s) & minute(s) and prepares a scheduled shutdown
-    after adding them together. If you wish to start the shutdown, press
-    confirm. If you wish to cancel the shutdown, press cancel.
+It takes in hour(s) & minute(s) and prepares a scheduled shutdown  after adding them together. If you wish to start the shutdown, press  confirm. If you wish to cancel the shutdown, press cancel.
 
-If 0 or no entry is added, an error message will pop up preventing
-accidental immediate shutdowns. The textboxes will not accept non-number
-values to be typed in; however, non-number values could still be pasted in.
-There is preventive messages from allowing the program to crash from this.
+If 0 or no entry is added, an error message will pop up preventing accidental immediate shutdowns. The textboxes will not accept non-number values to be typed in; however, non-number values could still be pasted in. There is preventive messages from allowing the program to crash from this.
 
 Examples of the commands used:
 - CMD Shutdown in 1 hour Command: shutdown -s -f -t 3600
